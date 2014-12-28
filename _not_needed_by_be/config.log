@@ -1,0 +1,69 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:567: checking host system type
+configure:652: checking whether make sets ${MAKE}
+configure:690: checking for a BSD compatible install
+configure:747: checking for gcc
+configure:824: checking whether the C compiler (mwcc -I- -I. -I/boot/usr/include -I/boot/develop/headers/posix -I/boot/develop/headers/cpp -I/boot/develop/headers/gnu -L/boot/usr/lib -L/boot/develop/lib/x86/ -r -enum int -msg nodup -D__dest_os=__be_os  ) works
+configure:838: mwcc -I- -I. -I/boot/usr/include -I/boot/develop/headers/posix -I/boot/develop/headers/cpp -I/boot/develop/headers/gnu -L/boot/usr/lib -L/boot/develop/lib/x86/ -r -enum int -msg nodup -D__dest_os=__be_os -o conftest    conftest.c  1>&5
+configure:858: checking whether the C compiler (mwcc -I- -I. -I/boot/usr/include -I/boot/develop/headers/posix -I/boot/develop/headers/cpp -I/boot/develop/headers/gnu -L/boot/usr/lib -L/boot/develop/lib/x86/ -r -enum int -msg nodup -D__dest_os=__be_os  ) is a cross-compiler
+configure:863: checking whether we are using GNU C
+configure:928: checking how to run the C preprocessor
+configure:989: checking for AIX
+configure:1021: checking for mwcc -I- -I. -I/boot/usr/include -I/boot/develop/headers/posix -I/boot/develop/headers/cpp -I/boot/develop/headers/gnu -L/boot/usr/lib -L/boot/develop/lib/x86/ -r -enum int -msg nodup -D__dest_os=__be_os option to accept ANSI C
+configure:1077: checking for function prototypes
+configure:1237: checking for working const
+configure:1312: checking for size_t
+configure:1345: checking for pid_t
+configure:1378: checking whether byte ordering is bigendian
+configure:1472: checking for string.h
+configure:1472: checking for stdarg.h
+configure:1472: checking for unistd.h
+configure:1472: checking for sys/time.h
+configure:1472: checking for utime.h
+configure:1472: checking for sys/utime.h
+configure:1512: checking for sys/select.h
+configure:1512: checking for sys/utsname.h
+configure:1512: checking for pwd.h
+configure:1512: checking for signal.h
+configure:1549: checking whether time.h and sys/time.h may both be included
+configure:1585: checking return type of signal handlers
+configure:1627: checking for struct utimbuf
+### /boot/apps/Metrowerks/tools/mwcc Compiler Error:
+#	#include <utime.mac.h> 
+#	                      ^
+# the file 'utime.mac.h' cannot be opened
+#----------------------------------------------------------
+File "/boot/develop/headers/posix/utime.h"; Line 9; # while compiling "conftest.c"
+#----------------------------------------------------------
+# errors caused tool to abort
+configure:1655: checking for working alloca.h
+configure:1688: checking for alloca
+configure:1884: checking for strdup
+configure:1884: checking for strstr
+configure:1884: checking for strcasecmp
+configure:1884: checking for strncasecmp
+configure:1939: checking for gettimeofday
+configure:1939: checking for mktime
+configure:1939: checking for strptime
+configure:1994: checking for strerror
+configure:1994: checking for vsnprintf
+configure:1994: checking for select
+configure:1994: checking for signal
+configure:1994: checking for symlink
+configure:1994: checking for access
+configure:1994: checking for isatty
+configure:2049: checking for uname
+configure:2049: checking for gethostname
+configure:2105: checking for gethostbyname
+configure:2208: checking for socket in -lsocket
+configure:2352: checking whether NLS is requested
+configure:2369: checking for msgfmt
+configure:2403: checking for xgettext
+configure:2438: checking for gmsgfmt
+configure:2484: checking for locale.h
+configure:2484: checking for libintl.h
+configure:2524: checking for gettext
+configure:2574: checking for gettext in -lintl
+configure:2661: checking for makeinfo
