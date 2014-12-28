@@ -1,4 +1,4 @@
-#ifndef SHARE_MESSAGES_H
+#ifndef SHARED_MESSAGES_H
 #define SHARED_MESSAGES_H
 //messages que GetManager et Visual Wget peuvent s'envoyer
 
