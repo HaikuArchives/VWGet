@@ -4,15 +4,15 @@
 #include <View.h>
 #include "TShare.h"
 
-class ParamView : public BView 
+class ParamView : public BView
 {
 public:
-	ParamView(BRect frame, const char *name); 
-	BTextControl *the_params;
-	BButton *confirm;
+	ParamView(BRect frame, const char* name);
+	BTextControl* the_params;
+	BButton* confirm;
 
-char title[1024];
+	char title[1024];
 };
 
 
-#endif 
+#endif

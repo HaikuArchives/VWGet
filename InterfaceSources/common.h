@@ -13,7 +13,7 @@ int text_main(int argc, char **argv);
 
 extern unsigned long file_length;
 extern unsigned long current_value;
-extern unsigned long previous_value; 
+extern unsigned long previous_value;
 extern unsigned long the_time;
 extern char the_url[2048];
 extern char the_info[2048];

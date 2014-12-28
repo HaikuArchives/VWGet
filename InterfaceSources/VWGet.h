@@ -6,23 +6,23 @@
 #include "TShare.h"
 #include "TWindow.h"
 
-class VWGetApplication : public BApplication 
+class VWGetApplication : public BApplication
 {
 public:
-	VWGetApplication();
-virtual void ArgvReceived(int32 argc, char **argv);
-bool QuitRequested();
-TWindow		*mainWindow;
-virtual void MessageReceived (BMessage *msg);
-BWindow *fakeWin;
+					VWGetApplication();
+	virtual void	ArgvReceived(int32 argc, char** argv);
+	virtual void	MessageReceived (BMessage* msg);
+	bool			QuitRequested();
 
-//Big thanks to Tyler Riti:
-int32 StartEngines(void);
+	TWindow*		mainWindow;
+	BWindow* fakeWin;
+
+	//Big thanks to Tyler Riti:
+	int32 StartEngines(void);
 
 private:
-int32 arg_count;
-char **arg_values;
-
+	int32 arg_count;
+	char** arg_values;
 };
 
-#endif 
+#endif

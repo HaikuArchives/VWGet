@@ -47,19 +47,22 @@
 #include <AppFileInfo.h>
 
 #define UPDATE_TITLE 'udtt'
-#define URL_GIVEN 	'urlg'
+#define URL_GIVEN	'urlg'
 #define NAME_CHOSEN 'nmch'
 #define ABOUT_BOX 'abbx'
 #define PAUSE_DOWNLOAD 'psdl'
 
-class TShare 
-{
+class TShare {
 public:
 	TShare();
 	bool paused;
 	thread_id wget_thread;
-	rgb_color color_error, color_normal, color_paused, color_over;
+
+	rgb_color color_error;
+	rgb_color color_normal;
+	rgb_color color_paused;
+	rgb_color color_over;
 };
 
 extern TShare ptg;
-#endif 
+#endif
