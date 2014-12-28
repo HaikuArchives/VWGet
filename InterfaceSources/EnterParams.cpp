@@ -1,5 +1,7 @@
 #include "EnterParams.h"
 
+#include <Button.h>
+
 ParamView::ParamView(BRect rect, const char *name)
 	   	   : BView(rect, name, B_FOLLOW_ALL, B_WILL_DRAW)
 {
