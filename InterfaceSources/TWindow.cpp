@@ -45,13 +45,6 @@ void TWindow::MessageReceived (BMessage *msg)
 				init_params();
 
 				PostMessage(new BMessage(UPDATE_TITLE));
-
-				//WARNING MESSAGE UNTIL WE GET RID OF THE BUG...
-				alert = new BAlert("",
-						"As stated in the docs, there's a bug here... so you'd better quit and restart, downloading won't work anymore...",
-						"GET LOST!", NULL, NULL,
-						B_WIDTH_FROM_WIDEST, B_INFO_ALERT);
-				alert->Go();
 			}
 			else {
 				if (ptg.paused == false) {

@@ -1,6 +1,8 @@
 #include "VWGet.h"
 #include "TWindow.h"
 
+#include <getopt.h>
+
 main()
 {
 	VWGetApplication	myApplication;
@@ -155,6 +157,7 @@ int32 VWGetApplication::StartEngines(void)
 	for (int32 i = 0; i < arg_count; ++i)
 		printf("%ld: %s\n", i, arg_values[i]);
 
+	optind = 1;
 	text_main(arg_count, arg_values);
 	return 1;
 }
